@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>RECTO</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/style2.css">
+  <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="script/script.js"></script>
+  <script src="script/script2.js"></script>
+ </head>
+ <body>
+    <div class="menu">
+        <div class="menu_header">
+            <h1 class="logo"></h1>
+            <a class="hamburger" href="#">
+                <span class="bar_top"></span>
+                <span class="bar_middle"></span>
+                <span class="bar_bottom"></span>
+            </a>
+        </div>
+        <div class="leftcont"></div>
+        <div class="rightcont">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html">SHOP</a></li>
+                <li><a href="index.html">COLLECTION</a></li>
+                <li><a href="index.html">NEWS</a></li>
+                <li><a href="index.html">STOCKISTS</a></li>
+                <li><a href="index.html">ABOUT</a></li>
+                <li><a href="index.html">SEARCH</a></li>
+                <li><a href="index.html">MY ACCOUNT</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="mainpage">
+        <header>
+            <nav class="left_nav">
+                <ul>
+                    <li><a href="index.html">Shop</a></li>
+                    <li><a href="index.html">Collection</a></li>
+                    <li><a href="index.html">Stockists</a></li>
+                    <li><a href="index.html">Contact</a></li>
+                </ul>
+                <div class="submenu">
+                    <div class="sub">
+                        <ul>
+                            <li><a href="index.html">Outer</a></li>
+                            <li><a href="index.html">Top</a></li>
+                            <li><a href="index.html">Skirt</a></li>
+                            <li><a href="index.html">Pants</a></li>
+                            <li><a href="index.html">Dress</a></li>
+                            <li><a href="index.html">Bag</a></li>
+                            <li><a href="index.html">Shoes</a></li>
+                            <li><a href="index.html">ACC</a></li>
+                            <li><a href="index.html">Materials</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="index.html">20 S/S Collection</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+			<img class="logo" src="img/recto_logotype.png" alt="logo">
+            <nav class="right_nav">
+                <a href="index.html" class="cart">Bag(<span>00</span>)</a>
+                <a class="hamburger" href="#">
+                    <span class="bar_top"></span>
+                    <span class="bar_middle"></span>
+                    <span class="bar_bottom"></span>
+                </a>
+            </nav>
+        </header>
+        <div class="product_img">
+            <div class="target" data-scale="2" data-image="img/dress_00.jpg"></div>
+        </div>
+        <div class="product_text">
+            <div class="textarea">
+                <h1>STRUCTURED WOOL SILK DRESS</h1>
+                <p class="design">Recto signature design with curved neck-line</p>
+                <p class="cost">448,000 KRW</p>
+                
+                <hr>
+                <form>
+                    <p>COLOR</p>
+                    <input type="radio" id="color" value="BEIGE">
+                    <label for="color" class="beige">beige
+                        <span class="box"></span>
+                    </label>
+
+                    <p>SIZE</p>
+                    <input type="radio" id="s_size" name="size" value="S"><label for="s_size">S</label>
+                    <input type="radio" id="m_size" name="size" value="M"><label for="m_size">M</label>
+                </form>
+                <hr>
+
+                <div class="ordercheck">
+                    <div class="sel_result">
+                        <p>COLOR : <span></span></p>
+                        <p>SIZE : <span></span></p>
+                    </div>
+
+                    <div class="quant">
+                        <button class="minus"></button>
+                        <span>01</span>
+                        <button class="plus"></button>
+                    </div>
+                </div>
+                <p class="total">TOTAL : <span>448,000 </span>KRW</p>
+                <button class="cart">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+    <div class="poparea">
+        <div class="popupbox">
+            <div class="popcont">
+                <div class="bagtitle">
+                    <h1>My Bag</h1>
+                    <button class="quit"><img src="img/xmark.svg" alt="x mark"></button>
+                </div>
+                <div class="product_info">
+                    <div class="bag_product"></div>
+                    <div class="bag_text">
+                        <input type="checkbox" id="product_name"><label for="product_name">STRUCTURED WOOL SILK DRESS</label>
+                        <div class="bag_result">
+                            <p>COLOR : <span></span></p>
+                            <p>SIZE : <span></span></p>
+                            <p>QUANTITY : <span></span></p>
+                            <p>PRICE : <span></span>KRW</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bag_btn">
+                    <button class="delete">삭제하기</button>
+                    <button class="gobuy">바로 구매</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="first">
+        <img src="img/sshorizon.svg" alt="20 Spring Summer"  data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+        <div class="img1" data-aos="fade-up" data-aos-duration="1000"></div>
+        <div class="img2" data-aos="fade-up" data-aos-duration="1000"></div>
+        <div class="text" data-aos="fade-up" data-aos-duration="1000">
+            <h3>STRUCTURED WOOL SILK DRESS</h3>
+            <p>
+                - 렉토의 시그니처 디자인인 불규칙 곡선으로 표현된 네크라인이 특징적인 드레스입니다.<br>
+                - 고급스러운 울 실크 소재를 이중으로 사용하여 더욱 견고하고 구조적으로 표현하였습니다.<br>
+                - 곡선으로 자연스럽게 떨어지는 드롭 숄더에 스티치 디테일로 완성도를 높였습니다.<br>
+                - 우아한 베이지 컬러와 아이보리 컬러 안감의 세련된 배색이 돋보입니다.<br>
+                - 뒷면 중앙의 콘솔 지퍼로 오픈/클로징 됩니다. 
+            </p>
+        </div>
+    </section>
+
+    <section class="second" >
+        <div class="img1" data-aos="fade-up" data-aos-duration="1000"></div>
+        <div class="img2" data-aos="fade-up" data-aos-duration="1000"></div>
+        <div class="img3" ></div>
+        <div class="img4" data-aos="fade-up" data-aos-duration="1000"></div>
+        <div class="img5" data-aos="fade-up" data-aos-duration="1000"></div>
+        <img src="img/slikdresstxt.svg" alt="">
+    </section>
+
+    <section class="third">
+        <div class="img1" data-aos="fade-up" data-aos-duration="1000"></div>
+        <div class="textarea" data-aos="fade-up" data-aos-duration="1000">
+            <p>
+               SIZE - S, M(단면기준/CM) <br>
+               S - 어깨 36/ 가슴 40/ 소매길이 42/ 소매통 19/ 총장 118<br>
+               M - 어깨 38/ 가슴 42/ 소매길이 42.5/ 소매통 20/ 총장 118.5
+            </p>
+            <p>
+                MODEL SIZE<br>
+                Height 171cm/ Bust 32"/ Waist 24"/ Hips 35"/ Shoe 245mm
+            </p>
+            <p>
+                MATERIALS<br>
+                80% WOOL 20% SILK/ LINING: 100% POLYESTER
+            </p>
+            <p>
+                DRY CLEAN ONLY<br>
+                DO NOT TUMBLE DRY<br>
+                DO NOT BLEACH<br>
+                LOW IRON ON A FABRIC<br>
+            </p>
+        </div>
+    </section>
+    <section class="related" data-aos="fade-up" data-aos-duration="1000">
+        <h1>RELATED ITEMS</h1>
+        <div class="relateditem">
+            <div class="item1">
+                <figure></figure>
+                <h3>SINGLE BREASTED BLAZER</h3>
+                <p>428,000 KRW</p>
+            </div>
+            <div class="item2">
+                <figure></figure>
+                <h3>SQUARE TOE STRAP SANDALS</h3>
+                <p>348,000 KRW</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h3 class="logo"></h3>
+        <address>
+            Company: Alika Co,Ltd.<br>
+            Owner: Jung Ji Youn Registration: 668-81-00367<br>
+            Mail Order License: #2016Seoul Seongdong-00681<br>
+            Email: contact@recto.co<br>
+            Customer Services: 1522-7720<br>
+            Address: 22-27 Hallimmal-gil Seongdong-gu Seoul Korea<br>
+            <br>
+            Images Source : RECTO official page(www.recto.com)<br> 
+            Simon Hantaï - Meun (https://nonsite.org/feature/engendering-pliage-simon-hantais-meuns)
+        </address>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+ </body>
+</html>
